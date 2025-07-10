@@ -37,8 +37,6 @@ ALLOWED_HOSTS = ["*"]
 # ]
 
 
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -113,7 +111,7 @@ WSGI_APPLICATION = 'roadmap.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=("DATABASE_URL"),
+        default=env("DATABASE_URL"),
     )
 }
 
