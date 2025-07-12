@@ -32,13 +32,14 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://roadmap-app-co73.onrender.com", "https://localhost:5173"
+    "https://roadmap-app-co73.onrender.com", "http://localhost:5173"
 ]
 
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173",
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "https://roadmap-app-co73.onrender.com",
+]
 
 
 # Application definition
