@@ -38,7 +38,7 @@ CSRF_TRUSTED_ORIGINS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://roadmap-app-co73.onrender.com",
+    "https://ourroadmap-orpin.vercel.app",
 ]
 
 
